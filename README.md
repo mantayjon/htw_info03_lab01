@@ -5,3 +5,4 @@
 - Kartoffeln
 - Milch
 - Reis
+- Salz
