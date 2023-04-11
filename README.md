@@ -4,3 +4,4 @@
 
 - Kartoffeln
 - Milch
+- Reis
