@@ -3,3 +3,4 @@
 ## Einkaufsliste
 
 - Kartoffeln
+- Reis
