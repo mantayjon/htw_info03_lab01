@@ -26,7 +26,7 @@ Our next step is to read the recommended instructions on the website. To create 
     
 With the suggested steps, we are able to create and push a github repository. We write a list into our `README.md` and collaboratively push items to it. Again, we choose to use the Terminal: 
 
-![Screenshot](https://github.com/mantayjon/info03_lab01.git/main/pics/screenshot_from_2023-04-16_19-42-12.png)
+![screenshot](https://github.com/mantayjon/info03_lab01/blob/main/pics/screenshot_from_2023-04-16_19-42-12.png)
 
 with `git clone` we download a copy of the repository into a local folder.
 
