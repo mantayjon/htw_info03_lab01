@@ -3,6 +3,6 @@
 ## Einkaufsliste
 
 - Kartoffeln
-- Milch
+- Hafermilch
 - Reis
 - Salz
