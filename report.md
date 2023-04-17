@@ -75,8 +75,16 @@ This report was created in a similar way as the `git init` above. Except we `git
 
 This copies the remote repo, makes a file with a line of text, adds it to the staging area, creates a commit with a message and updates the remote with the local commit.
 
-* sharing files and changes
-* different workflows (see git slides)
-* resolving merge conflicts
-* rebasing, merging, fast-forwarding
+## When in doubt
 
+`git status` and `git log --oneline` helped to get an overview of what is going on in the repository.
+There are a lot of different options for `git log` that are worth exploring, this is just a convenient short form.
+`git fetch` was needed to get the current status of the upstream repository as well, `git pull` implicitly calls that and whatever strategy for dealing with conflicts is configured.
+Whenever possible the default is to just fast-forward, i.e., merge without creating a new commit. 
+The other option is to merge after resolving the conflict manually.
+Finally, a rebase offers the most flexibility and `git rebase -i` is an interactive way to more or less rewrite the repositories' history.
+The following screenshot shows the contents of a rebase-todo, and all its options, during an interactive rebase.
+If a merge conflict is detected during the rebase, it can be resolved manually and the rebase is continued with `git rebase --continue`.
+Again, the CLI gave hints how to proceed.
+
+![Screenshot of a git rebase](pics/Screenshot_from_2023-04-17_08-40-36.png)
