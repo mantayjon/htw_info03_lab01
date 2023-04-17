@@ -1,4 +1,4 @@
-#### EURE NAMEN, Tobias Bayer
+#### EURE NAMEN, Tobias Bayer, Jonas Mantay
 
 # Labreport 01
 
