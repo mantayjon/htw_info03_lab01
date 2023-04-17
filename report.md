@@ -1,5 +1,7 @@
 #### EURE NAMEN, Tobias Bayer, Jonas Mantay
 
+[our repository](https://github.com/mantayjon/info03_lab01)
+
 # Labreport 01
 
 ### Part 2: Set up a central github repo and try out:	
@@ -7,7 +9,7 @@
 We set up a github repository by clicking 'new repository' on the github website.
 Our next step is to read the recommended instructions on the website. To create a new repository on the command line , it tells us to:
 
-1. echo "# test" >> README.md
+1. `echo "# test" >> README.md`
     - writes '# test' into a file. If the file does not exist, it is created first.
 2. git init
     - git init initialises a git repository. A hidden .git folder is created, which contains information about the repository.
