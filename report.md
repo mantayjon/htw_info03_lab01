@@ -1,10 +1,21 @@
-#### EURE NAMEN, Tobias Bayer, Jonas Mantay
+---
+title: Lab 01 – Git
+author: [Tobias Bayer, Jonas Mantay, Jonas Trenkler]
+date: '2023-04-17'
+lang: en
+keywords: [info3, labreport, git]
+output:
+    pdf_document:
+        template: eisvogel.latex
+        pandoc_args: ["--listings"]
+---
 
-[our repository](https://github.com/mantayjon/info03_lab01)
+# Lab 01 – Git
 
-# Labreport 01
+Group: Tobials Bayer, Jonas Mantay, Jonas Trenkler  
+Our repository: [https://github.com/mantayjon/info03_lab01](https://github.com/mantayjon/info03_lab01)
 
-### Part 2: Set up a central github repo and try out:	
+## Part 2: Set up a central github repo and try out:	
 
 We set up a github repository by clicking 'new repository' on the github website.
 Our next step is to read the recommended instructions on the website. To create a new repository on the command line , it tells us to:
