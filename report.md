@@ -23,6 +23,12 @@ Our next step is to read the recommended instructions on the website. To create 
     - this adds a repository to pull from and push to. The name is origin.
 7. `git push -u origin main`
     - this creates an upstream tracking branch and pushes it.
+    
+With the suggested steps, we are able to create and push a github repository. We write a list into our `README.md` and collaboratively push items to it. Again, we choose to use the Terminal: 
+
+![Screenshot](pics/Screenshot from 2023-04-16 19-42-12.png)
+
+with `git clone` we download a copy of the repository into a local folder.
 
 * sharing files and changes
 * different workflows (see git slides)
