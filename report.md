@@ -47,6 +47,9 @@ cd info03_lab01
 2. change directory to 'info3'
 3. copy the git repository from https://github.com/mantayjon/info03_lab01.git
 4. change directory to 'info03_lab01'
+
+![Screenshot: Setting up the lab report in the terminal](pics/screenshot_from_2023-04-16_19-42-12.png)
+
 To push an item to the list in `README.md`, we open the file with any text-editor and append a new list-item in Markdown syntax, e.g. `- Salz` and hit save. We then return to our Terminal:
 
 ```bash
@@ -67,13 +70,12 @@ This opened `vimdiff` as the default merge tool.
 For someone not used to vim a GUI merge tool like VS Code might be easier to use.
 
 The merge conflicts can be prevented by:
+
 - working in different branches
 - working on different files
 
-This report was created in a similar way as the `git init` above. Except we `git clone`, `echo "text" >> file`, `git add file`, `git commit -m "message"`, `git push`.
-![screenshot](pics/screenshot_from_2023-04-16_19-42-12.png)
-
 This copies the remote repo, makes a file with a line of text, adds it to the staging area, creates a commit with a message and updates the remote with the local commit.
+This report was created in a similar way as the `git init` above.
 
 ## When in doubt
 
